@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "XMR Price",
+  "version": "1.0",
+  "description": "A Chrome extension that displays the current Monero price in USD on the icon.",
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "action": {
+    "default_icon": "icon48.png",
+    "default_title": "XMR Price"
+  },
+  "permissions": ["storage", "alarms"],
+  "host_permissions": ["https://api.coingecko.com/*"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
