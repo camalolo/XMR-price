@@ -1,6 +1,5 @@
 node_modules/
 dist/
-release/
 
 *.crx
 web-ext-artifacts/
