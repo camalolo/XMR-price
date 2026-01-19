@@ -8,16 +8,16 @@
      "pack": "node release/scripts/pack.mjs",
      "publish": "bash release/scripts/tag_release.sh"
    },
-  "repository": {
+   "repository": {
     "type": "git",
-    "url": "git+https://github.com/YOUR_USERNAME/YOUR_REPO.git"
+    "url": "git+https://github.com/camalolo/XMR-price.git"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/YOUR_USERNAME/YOUR_REPO/issues"
+   "bugs": {
+    "url": "https://github.com/camalolo/XMR-price/issues"
   },
-  "homepage": "https://github.com/YOUR_USERNAME/YOUR_REPO#readme",
+  "homepage": "https://github.com/camalolo/XMR-price#readme",
   "devDependencies": {
     "@eslint/js": "^9.36.0",
     "baseline-browser-mapping": "^2.9.11",
