@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "XMR Price",
-  "version": "1.0",
+  "version": "1.0.0",
   "description": "A Chrome extension that displays the current Monero price in USD on the icon.",
   "icons": {
     "16": "icon16.png",
