@@ -75,6 +75,18 @@ chrome.action.onClicked.addListener(() => {
   fetchXMRPrice(true);
 });
 
+chrome.runtime.onStartup.addListener(() => {
+  console.log('Browser started, initializing XMR price fetch');
+  fetchXMRPrice();
+});
+
+chrome.idle.onStateChanged.addListener((state) => {
+  if (state === 'active') {
+    console.log('System woke from idle, refreshing XMR price');
+    fetchXMRPrice();
+  }
+});
+
 console.log('Extension loaded, initiating first fetch');
 fetchXMRPrice();
 
